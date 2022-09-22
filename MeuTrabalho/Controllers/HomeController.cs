@@ -19,7 +19,7 @@ namespace MeuTrabalho.Controllers
         {
             if(_globalConnection == null)
             {
-                _globalConnection = new SqlConnection("Server=martesql.database.windows.net;Database=db2022;User=app;Password=homework-set22;Max Pool Size=2");
+                _globalConnection = new SqlConnection("Server=martesql.database.windows.net;Database=db2022;User=app;Password=homework-set22;Max Pool Size=5");
                 _globalConnection.Open();
             }
 
